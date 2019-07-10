@@ -1,8 +1,8 @@
-def square_array(arr)
-  squared = []
+def square_array(array)
+  #squared = []
   counter = 0 
-  while counter < arr.length do
-    p squared << arr[counter]**2
+  while counter < array.length do
+    p array[counter]
     counter += 1 
   end
   
