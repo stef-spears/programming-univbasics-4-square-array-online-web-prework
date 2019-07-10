@@ -1,7 +1,6 @@
-all_squared = []
-def square_array(array)
+def square_array(arr)
   counter = 0 
-  while counter < array.length do
+  while counter < arr.length do
     p array[counter]
     counter += 1 
   end
